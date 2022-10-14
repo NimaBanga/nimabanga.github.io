@@ -28,7 +28,7 @@ nav a{
 .container1{
   position:relative;
   text-align: center;
-  color: #f725a7;
+  color: black;
   margin:30px;
 }
 
@@ -37,6 +37,15 @@ nav a{
   top: 40px;
   left: 40px;
   right: 50%;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote2{
+  position: absolute;
+  top: 40 px;
+  left: 40px;
   font-size: 30px;
   font-weight: 300;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -65,6 +74,13 @@ nav a{
   justify-content: space-between;
   flex-wrap: wrap;
   
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
 }
 
 .homepagebox {
