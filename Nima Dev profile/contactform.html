@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+        <meta name="description" content="Nima Banga rofile">
+        <meta name="Nima Banga" content="Dev profile">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="Photos/Nima Logo Pink Black.png" alt="Nima Banga Logo" id="FrontLogo">
+            <nav>
+               <a href=""> About Me </a>
+               <a href=""> What I do </a>
+               <a href=""> Projects </a>
+               <a href="contactform.html"> Contact </a>
+            </nav>
+        </header>
+        <div>
+            <img src="photos/ideaphoto4.jpg" alt="photo" class="photo">
+            <h1> Want to know more or collaborate ? Get in touch below. </h1>
+        </div>
+        <form action="https://formspree.io/f/mqkjlowq" method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="email">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="10" cols="50"></textarea>
+            </div>
+            <div>
+                <button type="submit">Send!</button>
+            </div>
+        </form>
+    </body>
+    </html>
