@@ -26,6 +26,88 @@ nav a{
 }
 
 .container1{
+background-image: linear-gradient(
+  rgba(0, 0, 0, 0.7), 
+  rgba(0, 0, 0, 0.7)),
+  url(Photos/ideaphoto4.jpg);
+background-size: 100%;
+background-position: bottom;
+display:flex;
+justify-content: flex-end;
+height: 400px;
+}
+
+.nimaphoto{
+  width:20%;
+  height: 100%; 
+  /* border-radius: 20%;
+  border: 20px solid #f725a7; */
+}
+
+.quote{
+  font-size: 30px;
+  font-weight: 600;
+  padding:60px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+
+.homepagebox {
+width:48%;
+height: 230px;
+border: black solid 4px;
+margin: 5px;
+text-align: center;
+font-size: 40px;
+line-height: 10%;
+color: #f725a7;
+}
+
+.material-icons{
+  font-size: 50px;
+  color: black;
+  line-height: 10%;
+}
+
+.links{
+  font-size: 15px;
+  color: black;
+  line-height: 10%;
+}
+
+.form{
+ text-align: center;
+ padding-top: 40px;
+}
+.form-item{
+  padding:20px;
+  font-size: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  padding: 20px;
+  background-color: #ECEDF7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+/* .container1{
   position:relative;
   text-align: center;
   color: black;
@@ -66,54 +148,5 @@ nav a{
   height: 100%; 
   border-radius: 20%;
   /* z-index: 2; */
-  border: 20px solid #f725a7;
-}
-
-.container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  
-}
-
-.form{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
-
-.homepagebox {
-width:49%;
-height: 400px;
-background-color: black;
-text-align: center;
-font-size: xx-large;
-color: #f725a7;
-/* background-image: url(photos/Nima\ Headshot.jpg);
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-background-position: top; */
-}
-
-.material-icons{
-  font-size: 50px;
-  color: white;
-}
-
-.links{
-  font-size: 20px;
-  color: white;
-}
-
-footer{
-  padding: 20px;
-  background-color: #ECEDF7;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-
+  /* border: 20px solid #f725a7;
+} */ */
