@@ -3,18 +3,18 @@ background-color: #ECEDF7;
 height: 140px;
 margin: 0%;
 padding: 0%;
-background-position: 80%;
+display: flex;
+justify-content: space-between;
 }
 
 #FrontLogo {
     height: 100%;
     width: auto;
-    display: inline-block; 
 }
 
 nav {
     float: right;
-    padding: 50px;
+    padding: 3%;
 }
 
 nav a{    
@@ -98,55 +98,13 @@ color: #f725a7;
 }
 
 footer{
-  padding: 20px;
+  padding: 15px;
   background-color: #ECEDF7;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+@media (max-width: 500px) {
 
-
-/* .container1{
-  position:relative;
-  text-align: center;
-  color: black;
-  margin:30px;
 }
-
-.quote{
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  right: 50%;
-  font-size: 30px;
-  font-weight: 300;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.quote2{
-  position: absolute;
-  top: 40 px;
-  left: 40px;
-  font-size: 30px;
-  font-weight: 300;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.photo{
-  width:100%;
-  height: 400px;
-  opacity: 0.5;
-}
-
-.nimaphoto{
-  position: absolute;
-  top: -20px;
-  left: 70%;
-  right: 10px;
-  width:20%;
-  height: 100%; 
-  border-radius: 20%;
-  /* z-index: 2; */
-  /* border: 20px solid #f725a7;
-} */ */
